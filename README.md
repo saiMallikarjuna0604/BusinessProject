@@ -1,12 +1,24 @@
-# React + Vite
+# 📌 Real-Time Chat & Marketplace App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **real-time business networking and marketplace application**, built using **React, Node.js, and Socket.io**. It enables **user-to-user messaging**, **profile management**, and **business lead generation**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **🚀 Features Implemented**
+### 🔹 **Business Profiles & Messaging**
+- Create & edit **business profiles** (with image upload).
+- **Real-time chat system** using `Socket.io`.
+- **One-to-one chat**  with stored conversations.
 
-## Expanding the ESLint configuration
+### 🔹 **Marketplace Listings**
+- **CRUD operations** (Create, Read, Update, Delete) for product/service listings.
+- Supports **multiple image uploads** per listing.
+- **Lead generation module** to fetch and claim leads.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 **Advanced React Concepts**
+- **React Context API** for state management.
+- **Lazy loading & code splitting** for optimized performance.
+- **Custom Hooks** (`useWebSocket`, `useLeads`, `useImageUpload`) for reusability.
+- **Material-UI** for responsive UI.
+
+---
